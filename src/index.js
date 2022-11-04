@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send(`If you're seeing this page, then server is up...`)
+  res.send(`Hello server`)
 })
 
 const server = http.createServer(app);
